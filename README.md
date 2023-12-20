@@ -18,9 +18,9 @@ https://www.figma.com/file/rFf8t4tP0HiY3tf5i5cRPx/Untitled?type=design&node-id=0
     - git checkout main
     - git pull origin main
 2. Create a new branch for your feature:
-    - git checkout -b your-initials-feature-name
+    - git checkout -b your-initials-issue-number-feature-name
     - Replace `feature-name` with a descriptive name for your feature.
-        - ex: git checkout -b ar-header-navigation
+        - ex: git checkout -b ar-5-header-navigation
 3. Make changes, write code, and commit your work:
     - git add .
     - git commit -m "Description of changes made"
