@@ -20,6 +20,23 @@ a {
   display: flex;
   justify-content: left;
   align-items: center;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+}
+
+.color-gray {
+  color: #B3B3B3;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .contact-link {
