@@ -9,3 +9,9 @@ a {
   margin: 0px;
   text-align: left;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
