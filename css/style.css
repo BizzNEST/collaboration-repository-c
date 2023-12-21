@@ -1,13 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a:hover {
@@ -29,8 +29,24 @@ a:hover {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.max-w-532px {
+  max-width: 532px;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
 .color-gray {
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
 .mt-0 {
@@ -42,13 +58,13 @@ a:hover {
 }
 
 .contact-link {
-    margin-left: auto;
-    margin-right: 30px;
+  margin-left: auto;
+  margin-right: 30px;
 }
 
 .projects-link {
-    margin-right: 45px;
-    margin-left: 0px;
+  margin-right: 45px;
+  margin-left: 0px;
 }
 
 .name-link {
