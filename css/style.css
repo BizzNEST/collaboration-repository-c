@@ -12,6 +12,16 @@ a {
 
 .flex {
   display: flex;
-  justify-content: space-between;
 }
 
+.color-gray {
+  color: #B3B3B3;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
