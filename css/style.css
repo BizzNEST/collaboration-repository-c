@@ -16,6 +16,7 @@ a {
   background-color: #000000;
   height: 81px;
   margin: 0px;
+  text-align: left;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -31,3 +32,16 @@ a {
     margin-left: 0px;
 }
 
+footer {
+  text-align: center;
+  width: auto;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: white;
+  padding: 50px;
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgba(190, 78, 229, 1);
+}
