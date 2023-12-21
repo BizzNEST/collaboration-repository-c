@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 45px;
+  margin-left: 45px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: #000000;
+  height: 81px;
+  margin: 0px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.contact-link {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.projects-link {
+    margin-right: 45px;
+    margin-left: 0px;
+}
+
