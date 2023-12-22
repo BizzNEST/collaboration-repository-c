@@ -1,7 +1,11 @@
+$primary-color: #000000;
+$accent-color: #BE4EE5;
+$background-color: #121417;
+
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(18, 20, 23, 1);
+  background-color: $background-color;
 }
 
 a {
@@ -16,7 +20,7 @@ a:hover {
 }
 
 .navbar {
-  background-color: #000000;
+  background-color: $primary-color;
   height: 81px;
   margin: 0px;
   text-align: left;
@@ -81,7 +85,7 @@ footer {
   text-align: center;
   width: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  background-color: #000000;
+  background-color: $primary-color;
   color: white;
   padding: 40px;
   font-size: 16px;
@@ -129,7 +133,7 @@ footer {
   bottom: 0px;
   transform: translate(-50%);
   color: white;
-  background-color: #000000;
+  background-color: $primary-color;
   padding: 10px;
   justify-content: left;
   padding-right: 77px;
