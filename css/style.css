@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  background-color: rgba(18, 20, 23, 1);
+>>>>>>> c68e339 (feat(Featured Projects):Develop Featured Projects)
 }
 
 a {
@@ -86,4 +90,100 @@ footer {
   font-size: 16px;
 }
 
+.projects {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
 
+}
+
+.projImg1 {
+  flex: 1;
+  margin: 3%;
+  margin-right: 0%;
+  margin-top: 0px;
+  height: 314px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.projImg2 {
+  flex: 1;
+  margin: 3%;
+  margin-top: 0px;
+  margin-right: 0%;
+  height: 314px;
+  position: relative;
+  overflow:hidden;
+}
+
+.projImg3 {
+  flex: 1;
+  margin: 3%;
+  margin-top: 0px;
+  margin-right: 0%;
+  height: 314px;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgBanner {
+  position: absolute;
+  bottom: 0px;
+  transform: translate(-50%, );
+  color: white;
+  background-color: #000000;
+  padding: 10px;
+  justify-content: left;
+  padding-right: 77px;
+  text-align: left;
+  font-size: 12px;
+  opacity: 75%;
+  width: 100%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  max-width:max-content;
+}
+
+.titleBanner {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+
+.projTitle {
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 12%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  
+  .projects {
+    flex-direction: column;
+    overflow: hidden;
+    margin-left:10%;
+    justify-content: center;
+  }
+  
+  .imgBanner {
+    
+  }
+  .projTitle,
+  .projImg1,
+  .projImg2,
+  .projImg3 {
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 37px;
+    
+
+  }
+}
