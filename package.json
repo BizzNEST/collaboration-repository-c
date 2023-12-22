@@ -1,0 +1,20 @@
+{
+  "name": "collaboration-repository-c",
+  "version": "1.0.0",
+  "description": "## Link To Design https://www.figma.com/file/rFf8t4tP0HiY3tf5i5cRPx/Untitled?type=design&node-id=0-1&mode=design&t=MEyVe5YN0rlHWECk-0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizznest-dev/collaboration-repository-c.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizznest-dev/collaboration-repository-c/issues"
+  },
+  "homepage": "https://github.com/bizznest-dev/collaboration-repository-c#readme"
+}
