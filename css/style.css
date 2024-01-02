@@ -15,6 +15,13 @@ a:hover {
   color: rgba(190, 78, 229, 1);
 }
 
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
 .navbar {
   background-color: #000000;
   height: 81px;
@@ -183,4 +190,57 @@ footer {
     
 
   }
+}
+
+.contact-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-right: 10%;
+  margin-left: 12%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100%;
+  padding: 26px 20px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  width: 50%;
+  margin-top: 40px;
+  background-color: #BE4EE5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
 }
