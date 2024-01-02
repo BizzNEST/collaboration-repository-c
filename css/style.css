@@ -187,7 +187,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  padding-right: 15%;
+  margin-right: 10%;
 }
 
 input {
@@ -241,10 +241,11 @@ footer {
 
 .map {
   height: 425px;
-  width: 166%;
+  width: 490px;
+  margin-left: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   body {
     flex-direction: column;
   }
