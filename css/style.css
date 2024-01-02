@@ -1,21 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
   background-color: rgba(18, 20, 23, 1);
->>>>>>> c68e339 (feat(Featured Projects):Develop Featured Projects)
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-}
-
-a:hover {
-  color: rgba(190, 78, 229, 1);
 }
 
 .navbar {
@@ -74,16 +60,6 @@ a:hover {
 .name-link {
   margin-right: auto;
   margin-left: 45px;
-}
-
-footer {
-  text-align: center;
-  width: auto;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  background-color: #000000;
-  color: white;
-  padding: 40px;
-  font-size: 16px;
 }
 
 .projects {
@@ -146,6 +122,8 @@ footer {
 .titleBanner {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
 }
 
 
@@ -168,10 +146,7 @@ footer {
     margin-left:10%;
     justify-content: center;
   }
-  
-  .imgBanner {
-    
-  }
+
   .projTitle,
   .projImg1,
   .projImg2,
@@ -183,3 +158,31 @@ footer {
 
   }
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+a:hover {
+  color: rgba(190, 78, 229, 1);
+}
+
+.name-link {
+  margin-right: auto;
+  margin-left: 45px;
+}
+
+footer {
+  text-align: center;
+  width: auto;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: white;
+  padding: 40px;
+  font-size: 16px;
+}
+
+
