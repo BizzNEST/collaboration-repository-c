@@ -35,6 +35,10 @@ body {
   gap: 4rem;
 }
 
+.gap-9 {
+  gap: 36px;
+}
+
 .color-gray {
   color: #b3b3b3;
 }
