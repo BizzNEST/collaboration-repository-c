@@ -206,6 +206,9 @@ footer {
   display: flex;
   justify-content: left;
   flex-direction: row;
+  @media screen and (max-width: 850px) {
+    flex-direction: column;
+  }
 }
 
 .contact-info {
@@ -213,6 +216,9 @@ footer {
   justify-content: left;
   flex-direction: column;
   width: 50%;
+  @media screen and (max-width: 850px) {
+    width: 100%;
+  }
 }
 
 .contact-form {
