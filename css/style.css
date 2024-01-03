@@ -265,6 +265,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-left: 0px;
   }
   .projTitle,
   .projImg1,
