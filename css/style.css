@@ -279,4 +279,7 @@ footer {
     align-items: center;
     padding-left: 30px;
   }
+  input {
+    width: 100%;
+  }
 }
