@@ -108,13 +108,14 @@ h1 {
   display: flex;
   justify-content: center;
   padding-bottom: 8%;
+  overflow:auto;
 }
 
 .projImg1 {
   flex: 1;
   height: 314px;
   position: relative;
-
+  overflow:hidden;
 }
 
 .projImg2 {
@@ -122,6 +123,7 @@ h1 {
   padding-left: 30px;
   height: 314px;
   position: relative;
+  overflow:hidden;
 }
 
 .projImg3 {
@@ -129,7 +131,7 @@ h1 {
   padding-left: 30px;
   height: 314px;
   position: relative;
-  
+  overflow:hidden;
 }
 
 .imgBanner {
@@ -144,7 +146,7 @@ h1 {
   text-align: left;
   font-size: 12px;
   opacity: 75%;
-  width: 100%;
+  width: 90%;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400px;
   max-width:max-content;
@@ -167,10 +169,11 @@ h1 {
 
 .contact-container {
   display: flex;
-  justify-content: left;
   flex-direction: column;
   margin-bottom: 50px;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-body {
@@ -196,11 +199,12 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  padding-right: 15%;
+  display: flex;
+  justify-content: center;
 }
 
 input {
-  width: 100%;
+  width: 90%;
   padding: 26px 20px;
   margin: 16px 0;
   box-sizing: border-box;
@@ -250,7 +254,9 @@ footer {
 
 .map {
   height: 425px;
-  width: 166%;
+  width: 490px;
+  border: none;
+  padding-left: 20px;
 }
 
 .john-doe-image {
@@ -270,18 +276,19 @@ footer {
 @media screen and (max-width: 600px) {
   body {
     flex-direction: column;
+    justify-content: center;
   }
-  
+
   .projects {
     flex-direction: column;
     overflow: hidden;
-    margin-left:10%;
-    justify-content: center;
+   
   }
   .map {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
   }
   .projTitle,
   .projImg1,
@@ -290,6 +297,12 @@ footer {
     flex: 1;
     overflow: hidden;
     margin-bottom: 37px;
-    padding-left: 0px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  }
+  input {
+    width: 100%;
+  }
 }
