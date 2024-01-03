@@ -27,6 +27,13 @@ a:hover {
   color: rgba(190, 78, 229, 1);
 }
 
+h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
 h1 {
   color: #ffffff;
   font-size: 40px;
@@ -47,6 +54,7 @@ h1 {
 
 .flex {
   display: flex;
+  padding-bottom: 8%;
 }
 
 .flex-wrap {
@@ -99,6 +107,7 @@ h1 {
 .projects {
   display: flex;
   justify-content: center;
+  padding-bottom: 8%;
 }
 
 .projImg1 {
@@ -244,6 +253,20 @@ footer {
   width: 166%;
 }
 
+.john-doe-image {
+  height: 429px;
+  width: 437px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 850px) {
+  .john-doe-image {
+    height: 429px;
+    width: 437px;
+  }
+  
+}
+
 @media screen and (max-width: 600px) {
   body {
     flex-direction: column;
@@ -268,7 +291,5 @@ footer {
     overflow: hidden;
     margin-bottom: 37px;
     padding-left: 0px;
-    
-
-  }
+}
 }
