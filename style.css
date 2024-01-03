@@ -1,3 +1,12 @@
+.justify-center {
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.w-full {
+  width: 100%;
+}
+
 #about-me {
   display: flex;
   justify-content: center;
@@ -94,31 +103,7 @@ footer {
   margin-right: 10%;
 }
 
-.projImg1 {
-  flex: 1;
-  margin: 3%;
-  margin-right: 0%;
-  margin-top: 0px;
-  height: 314px;
-  position: relative;
-  overflow: hidden;
-}
-
-.projImg2 {
-  flex: 1;
-  margin: 3%;
-  margin-top: 0px;
-  margin-right: 0%;
-  height: 314px;
-  position: relative;
-  overflow: hidden;
-}
-
-.projImg3 {
-  flex: 1;
-  margin: 3%;
-  margin-top: 0px;
-  margin-right: 0%;
+.proj-img {
   height: 314px;
   position: relative;
   overflow: hidden;
@@ -127,20 +112,18 @@ footer {
 .imgBanner {
   position: absolute;
   bottom: 0px;
+  left: 50%;
   transform: translate(-50%);
   color: white;
   background-color: #000000;
   padding: 10px;
   justify-content: left;
-  padding-right: 77px;
   text-align: left;
   font-size: 12px;
   opacity: 75%;
   width: 100%;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  max-width: -moz-max-content;
-  max-width: max-content;
 }
 
 .titleBanner {
@@ -188,6 +171,11 @@ body {
 
 #sections {
   max-width: 1038px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 156px;
+  padding: 171px 0;
 }
 
 p {
