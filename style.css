@@ -1,6 +1,5 @@
 justify-between {
   justify-content: space-between;
-  background-color: aqua;
 }
 
 .w-full {
@@ -51,7 +50,7 @@ a {
 }
 
 a:hover {
-  color: rgb(190, 78, 229);
+  color: #be4ee5;
 }
 
 footer {
@@ -89,7 +88,7 @@ a {
 }
 
 a:hover {
-  color: rgb(190, 78, 229);
+  color: #be4ee5;
 }
 
 h1 {
@@ -112,8 +111,8 @@ input {
   margin: 16px 0;
   box-sizing: border-box;
   border: 1px solid #ffffff;
-  background-color: rgb(255, 255, 255);
-  color: #000000;
+  background-color: #121417;
+  color: #ffffff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -123,7 +122,7 @@ input[type=submit] {
   width: 50%;
   margin-top: 40px;
   background-color: #be4ee5;
-  color: #ffffff;
+  color: white;
   border: none;
   cursor: pointer;
   font-weight: 700;
@@ -140,7 +139,7 @@ footer {
   text-align: center;
   width: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  background-color: #000000;
+  background-color: #121417;
   color: white;
   padding: 40px;
   font-size: 16px;
