@@ -1,0 +1,308 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(18, 20, 23, 1);
+}
+
+.main-body{
+  margin: 12%;
+}
+
+.p-text{
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+a:hover {
+  color: rgba(190, 78, 229, 1);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #000000;
+  height: 81px;
+  margin: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  padding-bottom: 8%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.max-w-532px {
+  max-width: 532px;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.gap-9 {
+  gap: 36px;
+}
+
+.color-gray {
+  color: #b3b3b3;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.contact-link {
+  margin-right: 45px;
+  margin-left: 0px;
+}
+
+.projects-link {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.name-link {
+  margin-right: auto;
+  margin-left: 45px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8%;
+  overflow:auto;
+}
+
+.projImg1 {
+  flex: 1;
+  height: 314px;
+  position: relative;
+  overflow:hidden;
+}
+
+.projImg2 {
+  flex: 1;
+  padding-left: 30px;
+  height: 314px;
+  position: relative;
+  overflow:hidden;
+}
+
+.projImg3 {
+  flex: 1;
+  padding-left: 30px;
+  height: 314px;
+  position: relative;
+  overflow:hidden;
+}
+
+.imgBanner {
+  position: absolute;
+  bottom: 0px;
+  transform: translate(-50%, );
+  color: white;
+  background-color: #000000;
+  padding: 10px;
+  justify-content: left;
+  padding-right: 77px;
+  text-align: left;
+  font-size: 12px;
+  opacity: 75%;
+  width: 90%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  max-width:max-content;
+}
+
+.titleBanner {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+
+.projTitle {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  @media screen and (max-width: 850px) {
+    flex-direction: column;
+  }
+}
+
+.contact-info {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 50%;
+  @media screen and (max-width: 850px) {
+    width: 100%;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 90%;
+  padding: 26px 20px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  width: 50%;
+  margin-top: 40px;
+  background-color: #BE4EE5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+a:hover {
+  color: rgba(190, 78, 229, 1);
+}
+
+.name-link {
+  margin-right: auto;
+  margin-left: 45px;
+}
+
+footer {
+  text-align: center;
+  width: auto;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: white;
+  padding: 40px;
+  font-size: 16px;
+}
+
+.map {
+  height: 425px;
+  width: 490px;
+  border: none;
+  padding-left: 20px;
+}
+
+.john-doe-image {
+  height: 429px;
+  width: 437px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 850px) {
+  .john-doe-image {
+    height: 429px;
+    width: 437px;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .projects {
+    flex-direction: column;
+    overflow: hidden;
+   
+  }
+  .map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .projTitle,
+  .projImg1,
+  .projImg2,
+  .projImg3 {
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  }
+  input {
+    width: 100%;
+  }
+}
