@@ -52,19 +52,25 @@
   max-width: 314px;
 }
 
+.proj-title {
+  padding-bottom: 40px;
+}
+
 .imgBanner {
   position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translate(-50%);
-  color: white;
+  top: 70%;
+  bottom: 3px;
   background-color: $primary-color;
-  padding: 10px;
-  justify-content: left;
-  text-align: left;
-  font-size: 12px;
   opacity: 75%;
-  width: 100px;
+  width: 100.5%;
+}
+
+.bannerText {
+  padding-left: 20px;
+  padding-bottom: 12px;
+  font-size: 12px;
+  text-align: left;
+  color: white;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
@@ -88,12 +94,6 @@
 .projects-link {
   margin-left: auto;
   margin-right: 30px;
-}
-
-.projects {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
 }
 
 .titleBanner {
