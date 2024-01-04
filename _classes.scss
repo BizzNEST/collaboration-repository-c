@@ -110,12 +110,18 @@
   font-weight: 700;
 }
 
+.name-link {
+  margin-right: auto;
+  margin-left: 45px;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
   margin-top: 50px;
   display: flex;
+  width: 100%;
   justify-content: center;
 }
 
@@ -130,13 +136,16 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
 
-.name-link {
-  margin-right: auto;
-  margin-left: 45px;
+.map-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 50px;
 }
 
 .map {
