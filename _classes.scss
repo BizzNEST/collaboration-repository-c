@@ -103,12 +103,25 @@
   line-height: 30px;
 }
 
+.projTitle {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.name-link {
+  margin-right: auto;
+  margin-left: 45px;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
   margin-top: 50px;
   display: flex;
+  width: 100%;
   justify-content: center;
 }
 
@@ -116,26 +129,23 @@
   display: flex;
   justify-content: left;
   flex-direction: row;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-  width: 50%;
+  width: 100%;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
 
-.name-link {
-  margin-right: auto;
-  margin-left: 45px;
+.map-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 50px;
 }
 
 .map {
