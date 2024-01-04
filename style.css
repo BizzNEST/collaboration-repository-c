@@ -144,16 +144,27 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  width: 50%;
   display: flex;
   justify-content: center;
+  width: 50%;
+}
+@media screen and (max-width: 900px) {
+  .contact-form {
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .map-container {
   display: flex;
   justify-content: center;
-  width: 50%;
   margin-bottom: 50px;
+  width: 50%;
+}
+@media screen and (max-width: 900px) {
+  .map-container {
+    width: 100%;
+  }
 }
 
 .map {
