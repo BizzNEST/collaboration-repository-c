@@ -14,8 +14,10 @@
   display: flex;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
+@media screen and (max-width: 1100px) {
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
 }
 
 .shrink-0 {
@@ -44,6 +46,12 @@
 
 .mb-0 {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+  .subtitle {
+    text-align: center;
+  }
 }
 
 .proj-img {
@@ -209,6 +217,11 @@ h1 {
   font-size: 40px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
+}
+@media screen and (max-width: 1100px) {
+  h1 {
+    text-align: center;
+  }
 }
 
 h2 {

@@ -15,7 +15,10 @@
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+  // wraps only if necessary (and all at once)
+  @media screen and (max-width: 1100px) {
+    flex-wrap: wrap;
+  }
 }
 
 .shrink-0 {
@@ -44,6 +47,13 @@
 
 .mb-0 {
   margin-bottom: 0px;
+}
+
+.subtitle {
+  @media screen and (max-width: 1100px) {
+    text-align: center;
+    
+  }
 }
 
 .proj-img {
