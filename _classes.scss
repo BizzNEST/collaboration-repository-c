@@ -46,21 +46,6 @@
   margin-bottom: 0px;
 }
 
-.contact-link {
-  margin-left: auto;
-  margin-right: 30px;
-}
-
-.projects-link {
-  margin-right: 45px;
-  margin-left: 0px;
-}
-
-.name-link {
-  margin-right: auto;
-  margin-left: 45px;
-}
-
 .proj-img {
   position: relative;
   flex: 1 0 314px;
@@ -79,22 +64,9 @@
   text-align: left;
   font-size: 12px;
   opacity: 75%;
-  width: 100%;
+  width: 100px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
-}
-
-.titleBanner {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-.projTitle {
-  color: #ffffff;
-  font-size: 40px;
-  margin-left: 12%;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 700;
 }
 
 .navbar {
@@ -118,31 +90,10 @@
   margin-right: 30px;
 }
 
-.name-link {
-  margin-right: auto;
-  margin-left: 45px;
-}
-
 .projects {
   display: flex;
   justify-content: center;
   overflow: auto;
-}
-
-.imgBanner {
-  position: absolute;
-  bottom: 0px;
-  transform: translate(-50%);
-  color: white;
-  background-color: #000000;
-  padding: 10px;
-  justify-content: left;
-  width: 100%;
-  text-align: left;
-  font-size: 12px;
-  opacity: 75%;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 400px;
 }
 
 .titleBanner {
