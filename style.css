@@ -278,7 +278,7 @@ input {
 }
 
 input[type=submit] {
-  width: 50%;
+  max-width: 235px;
   margin-top: 40px;
   background-color: #be4ee5;
   color: white;
