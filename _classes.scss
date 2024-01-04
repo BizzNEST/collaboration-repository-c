@@ -15,7 +15,10 @@
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+  // wraps only if necessary (and all at once)
+  @media screen and (max-width: $mobile-screen-size) {
+    flex-wrap: wrap;
+  }
 }
 
 .shrink-0 {
@@ -44,6 +47,13 @@
 
 .mb-0 {
   margin-bottom: 0px;
+}
+
+.subtitle {
+  @media screen and (max-width: $mobile-screen-size) {
+    text-align: center;
+    
+  }
 }
 
 .proj-img {
@@ -136,16 +146,23 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  width: 50%;
   display: flex;
   justify-content: center;
+  width: 50%;
+  @media screen and (max-width: $contact-form-mobile-size) {
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .map-container {
   display: flex;
   justify-content: center;
-  width: 50%;
   margin-bottom: 50px;
+  width: 50%;
+  @media screen and (max-width: $contact-form-mobile-size) {
+    width: 100%;
+  }
 }
 
 .map {

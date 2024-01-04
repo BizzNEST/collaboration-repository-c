@@ -52,6 +52,10 @@ h1 {
   font-size: 40px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
+  @media screen and (max-width: $mobile-screen-size) {
+    text-align: center;
+  }
+  
 }
 
 h2 {
